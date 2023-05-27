@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+  <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="icon" href="images e/large.png">
+  <title>My Tile</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@300;800&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+
+<style>
+.dropdown-hover:hover>.dropdown-menu {
+display: inline-block;
+}
+
+.dropdown-hover>.dropdown-toggle:active {
+/*Without this, clicking will make it sticky*/
+pointer-events: none;
+}
+ </style>
+  
+
+
+</head>
+<body>
+<!-----main container--->
+<div class="container-fluid">
+
+<!-- header container -->
+
+
+
+
+
+  <div class="top-navbar">
+      <div class="top-icon iconf">
+         <a href="https://twitter.com"> <i class="fa-brands fa-twitter iconf"></i></a>
+         <a href="https://www.facebook.com/mastertilesLTD/"> <i class="fa-brands fa-facebook iconf"></i></a>
+         <a href="https://www.instagram.com/mastertiles_official/?hl=en"> <i class="fa-brands fa-instagram iconf"></i></a>
+         <a href="https://www.youtube.com/@mastertilesandceramicoffic9778/videos"><i class="bi bi-youtube iconf"></i></a>
+      </div>
+      <div class="other-links iconf">
+          <button id="btn-login"><a href="https://www.instagram.com/mastertiles_official/?hl=en">login</a></button>
+          <button id="btn-signup"><a href="https://www.facebook.com/mastertilesLTD/">Sign up</a></button>
+
+          <a href="contact.html"> <i class="fa-solid fa-user iconf"></i></a>
+          <a href="tiles.html"><i class="fa-solid fa-cart-shopping iconf"></i></a>
+      </div>
+  </div>
+  <!--navbar-->
+  <div class="home-section">
+      <!--navbar Start-->
+      <nav class="navbar navbar-expand-lg" id="navbar">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="https://www.facebook.com/mastertilesLTD/"><img src="images e/large.png" alt="" width="100"> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 iconf">
+                <li class="nav-item">
+                  <a class="nav-link active iconf" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link iconf" href="about.html">About-US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link iconf" href="tiles.html">Tiles</a>
+                </li>
+
+                <li class="nav-item dropdown dropdown-hover position-static">
+                  <a class="nav-link dropdown-toggle" href="tiles.html" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Products
+                  </a>
+                  <!-- Dropdown menu -->
+                  <div class="dropdown-menu w-100 mt-0 mega" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;
+                                    border-top-right-radius: 0;
+                                  ">
+        
+                    <div class="container  ">
+                      <div class="row my-4">
+                        <div class="col-md-6 col-lg-3 mb-3 mb-lg-0 iconf mega">
+                          <div class="list-group list-group-flush ">
+                              <ul><li>
+                              <h5 class="text-light">Wall Tiles</h5>
+                          </li></ul>
+                          
+                            <a href="bathroomwall.html" class="list-group-item list-group-item-action iconf">Bathroom-wall-tiles</a>
+                            <a href="kitchenwall.html" class="list-group-item list-group-item-action iconf">Kitchen-wall-tiles</a>
+                            <a href="outdoorwall.html" class="list-group-item list-group-item-action iconf">Outdoor-tiles</a>
+                            <a href="livingroomwall.html" class="list-group-item list-group-item-action iconf">Living-room</a>
+                            <a href="commericalwall.html" class="list-group-item list-group-item-action iconf">Commercial-spaces-tiles</a>
+                          
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 mb-3 mb-lg-0 iconf mega">
+                          <div class="list-group list-group-flush ">
+                              <ul><li>
+                                  <h5 class="text-light">Floor Tiles</h5>
+                              </li></ul>
+                              
+                            <a href="bathroom2.html" class="list-group-item list-group-item-action iconf">bathroom-Floor-tiles</a>
+                            <a href="kitchen2.html" class="list-group-item list-group-item-action iconf">Kitchen-floor-tiles</a>
+                            <a href="outdoor2.html" class="list-group-item list-group-item-action iconf">Outdoor-floor-tiles</a>
+                            <a href="livingroom2.html" class="list-group-item list-group-item-action iconf">living-Room</a>
+                            <a href="bedroom.html" class="list-group-item list-group-item-action iconf">bedroom</a>
+                            <a href="comerical.html" class="list-group-item list-group-item-action iconf">Commercial-spaces-tiles</a>
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 mb-3 mb-md-0 iconf mega">
+                          <div class="list-group list-group-flush">
+                              <ul><li>
+                                  <h5 class="text-light">Special Tiles</h5>
+                              </li></ul>  
+                            <a href="germ.html" class="list-group-item list-group-item-action iconf">Germ</a>
+                            <a href="tac.html" class="list-group-item list-group-item-action iconf">TAC</a>
+                            <a href="anti.html" class="list-group-item list-group-item-action iconf">Anti-Static</a>
+                            <a href="cool.html" class="list-group-item list-group-item-action iconf">Cool-Roof</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              
+                
+                <li class="nav-item dropdown dropdown-hover position-static">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Expert-corner
+                  </a>
+                  <!-- Dropdown menu -->
+                  <div class="dropdown-menu w-25 mt-0" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;
+                                    border-top-right-radius: 0;
+                                  ">
+        
+                    <div class="container">
+                      <div class="row my-4">
+                        <div class="col-md-12 col-lg-12 mb-3 mb-lg-0 iconf ">
+                          <div class="list-group list-group-flush">
+
+                            <a href="blog.html" class="list-group-item list-group-item-action iconf">Blogs</a>
+                            <a href="guide.html" class="list-group-item list-group-item-action iconf">Tile-Guide</a>
+                            <a href="https://www.youtube.com/@mastertilesandceramicoffic9778/videos" class="list-group-item iconf list-group-item-action">Educational Videos</a>
+                            <a href="" class="list-group-item list-group-item-action iconf">Tile-Calculator</a>
+                           
+                          
+                          </div>
+                        </div>
+                        </div>
+                        </div>
+
+                <li class="nav-item">
+                  <a href="contactus.html" class="nav-link iconf"> Contact-Us</a>
+                </li>
+              </ul>
+
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <a href="tiles.html"><button class="btn btn-danger" type="submit">Search</button></a>
+              </form>
+            </div>
+          </div>
+        </nav>
+  </div>
+<!-- slider -->
+
+<div  id="carouselExampleControls" height="400" class="carousel slide container-fluid" data-bs-ride="carousel">
+   <div class="carousel-inner">
+      <div class="carousel-item active position-relative">
+          <div class="position-absolute z-2 slidetxt top-50 ps-5">
+<h1 class=" display-2 txt">My Tiles</h1>
+<p class="text-light display-5">Review & Quality</p>
+<button class="btn btn-danger text-dark"><a href="tiles.html"> Products</a></button>
+          </div>
+          <img src="images e/RE8.origRGB.0000@0.5x-1-scaled.jpg" height="550"  class="d-block w-100 position-relative z-0" alt="..." >
+      </div>
+
+
+
+      <div class="carousel-item">
+        <div class="position-absolute z-5 slidetxt top-50 ps-5">
+          <h1 class=" display-2 txt">My Tiles</h1>
+          <p class="text-light display-5">Review & Quality</p>
+          <button class="btn btn-danger text-dark"><a href="tiles.html">Products</a></button>
+                      </div>
+        <img src="images e/bathslider3.webp" height="550" class="d-block w-100" alt="..." >
+      </div>
+
+      <div class="carousel-item">
+        <div class="position-absolute z-5 slidetxt top-50 ps-5">
+          <h1 class=" display-2 txt">My Tiles</h1>
+          <p class="text-light display-5">Review & Quality</p>
+          <button class="btn btn-danger text-dark"><a href="tiles.html">Products</a></button>
+                      </div>
+        <img src="images e/kitchenslider2.jpg" height="550" class="d-block w-100" alt="..." >
+      </div>
+
+
+
+      <div class="carousel-item">
+        <div class="position-absolute z-2 slidetxt top-50 ps-5">
+          <h1 class=" display-2 txt">My Tiles</h1>
+          <p class="text-light display-5">Review & Quality</p>
+          <button class="btn btn-danger text-dark"><a href="tiles.html">Products</a></button>
+                      </div>
+        <img src="images e/mt.jpg" height="550" class="d-block w-100" alt="..." >
+      </div>
+
+
+
+
+      </div> 
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide=""> <span class="visually-hidden">Previous</span>></button>
+
+
+  </div>
+</div>
+
+
+<div class="bg-light">
+<div class="container py-5">
+  <div class="row h-100 align-items-center py-5">
+    <div class="col-lg-6">
+      <h1 class="display-4">About us</h1>
+      <p class="lead text-muted mb-0">Create a minimal Tiles about us page Company Details </p>
+      <p class="lead text-muted">Attact with <a href="https://www.facebook.com/mastertilesLTD/" class="iconf"> 
+                  <u>Facebook</u></a>
+      </p>
+    </div>
+    <div class="col-lg-6 d-none d-lg-block"><img src="images e/th.jpeg" alt="" class="img-fluid"></div>
+  </div>
+</div>
+</div>
+
+<div class="bg-white py-5">
+<div class="container py-5">
+  <div class="row align-items-center mb-5">
+    <div class="col-lg-6 order-2 order-lg-1"><i class="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
+      <h2 class="font-weight-light">Company was founded in 2002 by Mohsin Raza Gondal based on the family business since 1974 and now is a renowned name in the Granite and Marble industry.</h2>
+      <p class="font-italic text-muted mb-4">
+
+        Main activity is providing granite, marble  and related products in various colors, qualities and from different origins around the world to cater the needs of our valuable consumers, dealers and projects. Integrity, customer service, quality and business with a conscience are the main theme of the Company. It has been able to solicit and cater to dealers and consumers from all parts of Pakistan.</p><button class="text-light h6 p-2 cartBtn"><a href="contactus.html"> Learn more</a></button>
+    </div>
+    <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2"><img src="images e/FB_IMG_1628623358266.jpg" alt="" class="img-fluid mb-4 mb-lg-0 picture"></div>
+  </div>
+  <div class="row align-items-center">
+    <div class="col-lg-5 px-5 mx-auto"><img src="images e/InShot_20220911_131052666.jpg" alt="" class="img-fluid mb-4 mb-lg-0 picture"></div>
+    <div class="col-lg-6"><i class="fa fa-leaf fa-2x mb-3 text-primary"></i>
+      <h2 class="font-weight-light">
+          Muhammad Allas Ahmed based on the family business since 1974 Marble industry. Joining since 2015 as Manager</h2>
+      <p class="font-italic text-muted mb-4">Main activity is providing granite, marble  and related products in various colors, qualities and from different origins around the world to cater the needs of our valuable consumers, dealers and projects. Integrity, customer service, quality and business with a conscience are the main theme of the Company. It has been able to solicit and cater to dealers and consumers from all parts of Pakistan.</p><button class="text-light h6 p-2 cartBtn"><a href="contactus.html"> Learn more</a></button>
+    </div>
+  </div>
+  <div class="row align-items-center mb-5">
+    <div class="col-lg-6 order-2 order-lg-1"><i class="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
+      <h2 class="font-weight-light">Tabish Khan  based on the family business since 1974 .I am Joining since 2020 as Assitant Manager and now is a renowned name in the Granite and Marble industry.</h2>
+      <p class="font-italic text-muted mb-4">
+
+        Main activity is providing granite, marble  and related products in various colors, qualities and from different origins around the world to cater the needs of our valuable consumers, dealers and projects. Integrity, customer service, quality and business with a conscience are the main theme of the Company. It has been able to solicit and cater to dealers and consumers from all parts of Pakistan.</p><button class="text-light h6 p-2 cartBtn"><a href="contactus.html"> Learn more</a></button>
+    </div>
+    <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2"><img src="images e/IMG-20230228-WA0025.jpg" alt="" class="img-fluid mb-4 mb-lg-0 picture"></div>
+  </div>
+</div>
+
+
+</div>
+
+<div class="bg-light py-5">
+<div class="container py-5">
+  <div class="row mb-4">
+    <div class="col-lg-5">
+      <h2 class="display-4 font-weight-light">Our team</h2>
+      <p class="font-italic text-muted">company member</p>
+    </div>
+  </div>
+
+  <div class="row text-center container-flu">
+    <!-- Team item-->
+    <div class="col-md-3 col-sm-6 m-4 crdcolr ">
+      <div class="cardcolr rounded shadow-sm py-5 px-4"><img src="images e/InShot_20220911_131052666.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+        <h5 class="text-light">Allas Ahmed</h5><span class="small text-uppercase text-light">Manager</span>
+        <ul class="social mb-0 list-inline mt-3">
+          <li class="list-inline-item"><a href="https://www.facebook.com/mastertilesLTD/" class="social-link"><i class="fa-brands fa-facebook iconf"></i></a></li>
+          <li class="list-inline-item"><a href="https://twitter.com" class="social-link"><i class="fa-brands fa-twitter iconf"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.instagram.com/mastertiles_official/?hl=en" class="social-link"><i class="fa-brands fa-instagram iconf"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.youtube.com/@mastertilesandceramicoffic9778/videos" class="social-link"><i class="bi bi-youtube iconf"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End-->
+
+    <!-- Team item-->
+    <div class="col-md-3 col-sm-6 m-4 crdcolr">
+      <div class="cardcolr rounded shadow-sm py-5 px-4"><img src="images e/FB_IMG_1628623358266.jpg" alt=""  width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+        <h5 class="text-light">Moshin Raza Gondal</h5><span class="small text-uppercase text-light">CEO - Company</span>
+        <ul class="social mb-0 list-inline mt-3">
+          <li class="list-inline-item"><a href="https://www.facebook.com/mastertilesLTD/" class="social-link"><i class="fa-brands fa-facebook iconf"></i></a></li>
+          <li class="list-inline-item"><a href="https://twitter.com" class="social-link"><i class="fa-brands fa-twitter iconf"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.instagram.com/mastertiles_official/?hl=en" class="social-link"><i class="fa-brands fa-instagram iconf"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.youtube.com/@mastertilesandceramicoffic9778/videos" class="social-link"><i class="bi bi-youtube iconf"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End-->
+
+    <!-- Team item-->
+    <div class="col-md-3 col-sm-6 m-4 crdcolr">
+      <div class="cardcolr rounded shadow-sm py-5 px-4"><img src="images e/IMG-20230228-WA0025.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+        <h5 class="text-light">Tabish Ahmed</h5><span class="small text-uppercase text-light">Assitant Manager</span>
+        <ul class="social mb-0 list-inline mt-3">
+          <li class="list-inline-item"><a href="https://www.facebook.com/mastertilesLTD/" class="social-link"><i class="fa-brands fa-facebook iconf"></i></a></li>
+          <li class="list-inline-item"><a href="https://twitter.com" class="social-link"><i class="fa-brands fa-twitter iconf"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.instagram.com/mastertiles_official/?hl=en" class="social-link"><i class="fa-brands fa-instagram iconf"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.youtube.com/@mastertilesandceramicoffic9778/videos" class="social-link"><i class="bi bi-youtube iconf"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End-->
+
+    <!-- Team item-->
+   
+    <!-- End-->
+
+  </div>
+</div>
+</div>
+
+
+    
+
+<div class="container-fluid mt-5 p-5 c" >
+  <div class="container">
+    <div class="row">
+<div class="col-md-4  mt-4   border-end border-secondary  ">
+
+
+  
+  <br>
+  <!-- <div class="row"> -->
+  <img src="images e/large.png" height="100" width="100">
+
+<br>
+<p class="text-light  ">It is a story o three decades<br>more than a quarter of a century.<br>It is a tale of a dream realized<br>against all odds.</p>
+<br>
+<p class="text-light tet "><a href="https://www.instagram.com/mastertiles_official/?hl=en"><i class="bi bi-telephone  h4 text-light pe-3"></i></a>0800-12345</p>
+
+
+<br>
+<p class="text-light tet"><a href="https://www.facebook.com"><i class="bi bi-facebook   h4 text-light pe-3"></i></a>facebookMytiles.com</p>
+
+<br>
+<p  class=" text-light tet "><a href="https://www.instagram.com/mastertiles_official/?hl=en"><i class="bi bi-house   h4 text-light pe-3"></i></a>L-262 Sector 50/C L.E.R.P West Karachi</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="col-md-4   mt-5  border-end border-secondary text-center justify-content-center ">
+
+
+  <h1 class="text-light  ">Mytile</h1>
+
+  
+  <h2 style="color: red;">_______</h2>
+  <br>
+
+<p class="text-secondary tet"> <a href="index.html">> Home</a></p>
+<p class="text-secondary tet"> <a href="about.html">> About-US </a></p>
+<p class="text-secondary tet"> <a href="tiles.html">> Tile info</a></p>
+<p class="text-secondary tet"><a href="tiles.html">> Products</a></p>
+<p class="text-secondary tet"> <a href="contact.html">> Contact-Us</a></p>
+
+
+</div>
+
+
+
+<div class="col-md-4  mt-4  ">
+
+
+  <h6 class="text-light ">INEORMATION</h6>
+  <h2 style="color: red;">_______</h2>
+  <br><br>
+<p class="text-secondary tet"><a href="https://mastertiles.com/faq/">>F.A.Q.'s</a></p>
+<br>
+<p class="text-secondary tet"><a href="">>Delivery information</a></p>
+<br>
+<p class="text-secondary tet "> <a href="https://www.homeworkscarpetonebethanybeach.com/privacy-policy">>Privacy Policy</a></p>
+<br>
+<p  class=" text-secondary tet"> <a href="https://www.homeworkscarpetonebethanybeach.com/terms-of-service">>Terms & Conditions</a></p>
+</div>
+
+
+    </div>
+  </div>
+</div>
+ <!-- footer end -->
+<div></div>
+
+
+
+
+
+</div>
+
+
+
+</div>
+<script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js">
+
+</script>
+
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/smoothslides-2.2.1.min.js"></script>
+	<script type="text/javascript">
+  </script>
+</body>
+</html>

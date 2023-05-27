@@ -1,0 +1,401 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+  <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="icon" href="images e/large.png">
+  <title>My Tile</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@300;800&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+
+<style>
+.dropdown-hover:hover>.dropdown-menu {
+display: inline-block;
+}
+
+.dropdown-hover>.dropdown-toggle:active {
+/*Without this, clicking will make it sticky*/
+pointer-events: none;
+}
+ </style>
+  
+
+
+</head>
+<body>
+<!-----main container--->
+<div class="container-fluid">
+
+<!-- header container -->
+
+
+
+
+
+  <div class="top-navbar">
+      <div class="top-icon iconf">
+         <a href="https://twitter.com"> <i class="fa-brands fa-twitter iconf"></i></a>
+         <a href="https://www.facebook.com/mastertilesLTD/"> <i class="fa-brands fa-facebook iconf"></i></a>
+         <a href="https://www.instagram.com/mastertiles_official/?hl=en"> <i class="fa-brands fa-instagram iconf"></i></a>
+         <a href="https://www.youtube.com/@mastertilesandceramicoffic9778/videos"><i class="bi bi-youtube iconf"></i></a>
+      </div>
+      <div class="other-links iconf">
+          <button id="btn-login"><a href="https://www.instagram.com/mastertiles_official/?hl=en">login</a></button>
+          <button id="btn-signup"><a href="https://www.facebook.com/mastertilesLTD/">Sign up</a></button>
+
+          <a href="contact.html"> <i class="fa-solid fa-user iconf"></i></a>
+          <a href="tiles.html"><i class="fa-solid fa-cart-shopping iconf"></i></a>
+      </div>
+  </div>
+  <!--navbar-->
+  <div class="home-section">
+      <!--navbar Start-->
+      <nav class="navbar navbar-expand-lg" id="navbar">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="https://www.facebook.com/mastertilesLTD/"><img src="images e/large.png" alt="" width="100"> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 iconf">
+                <li class="nav-item">
+                  <a class="nav-link active iconf" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link iconf" href="about.html">About-US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link iconf" href="tiles.html">Tiles</a>
+                </li>
+
+                <li class="nav-item dropdown dropdown-hover position-static">
+                  <a class="nav-link dropdown-toggle" href="tiles.html" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Products
+                  </a>
+                  <!-- Dropdown menu -->
+                  <div class="dropdown-menu w-100 mt-0 mega" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;
+                                    border-top-right-radius: 0;
+                                  ">
+        
+                    <div class="container  ">
+                      <div class="row my-4">
+                        <div class="col-md-6 col-lg-3 mb-3 mb-lg-0 iconf mega">
+                          <div class="list-group list-group-flush ">
+                              <ul><li>
+                              <h5 class="text-light">Wall Tiles</h5>
+                          </li></ul>
+                          
+                            <a href="bathroomwall.html" class="list-group-item list-group-item-action iconf">Bathroom-wall-tiles</a>
+                            <a href="kitchenwall.html" class="list-group-item list-group-item-action iconf">Kitchen-wall-tiles</a>
+                            <a href="outdoorwall.html" class="list-group-item list-group-item-action iconf">Outdoor-tiles</a>
+                            <a href="livingroomwall.html" class="list-group-item list-group-item-action iconf">Living-room</a>
+                            <a href="commericalwall.html" class="list-group-item list-group-item-action iconf">Commercial-spaces-tiles</a>
+                          
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 mb-3 mb-lg-0 iconf mega">
+                          <div class="list-group list-group-flush ">
+                              <ul><li>
+                                  <h5 class="text-light">Floor Tiles</h5>
+                              </li></ul>
+                              
+                            <a href="bathroom2.html" class="list-group-item list-group-item-action iconf">bathroom-Floor-tiles</a>
+                            <a href="kitchen2.html" class="list-group-item list-group-item-action iconf">Kitchen-floor-tiles</a>
+                            <a href="outdoor2.html" class="list-group-item list-group-item-action iconf">Outdoor-floor-tiles</a>
+                            <a href="livingroom2.html" class="list-group-item list-group-item-action iconf">living-Room</a>
+                            <a href="bedroom.html" class="list-group-item list-group-item-action iconf">bedroom</a>
+                            <a href="comerical.html" class="list-group-item list-group-item-action iconf">Commercial-spaces-tiles</a>
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 mb-3 mb-md-0 iconf mega">
+                          <div class="list-group list-group-flush">
+                              <ul><li>
+                                  <h5 class="text-light">Special Tiles</h5>
+                              </li></ul>  
+                            <a href="germ.html" class="list-group-item list-group-item-action iconf">Germ</a>
+                            <a href="tac.html" class="list-group-item list-group-item-action iconf">TAC</a>
+                            <a href="anti.html" class="list-group-item list-group-item-action iconf">Anti-Static</a>
+                            <a href="cool.html" class="list-group-item list-group-item-action iconf">Cool-Roof</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              
+                
+                <li class="nav-item dropdown dropdown-hover position-static">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Expert-corner
+                  </a>
+                  <!-- Dropdown menu -->
+                  <div class="dropdown-menu w-25 mt-0" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;
+                                    border-top-right-radius: 0;
+                                  ">
+        
+                    <div class="container">
+                      <div class="row my-4">
+                        <div class="col-md-12 col-lg-12 mb-3 mb-lg-0 iconf ">
+                          <div class="list-group list-group-flush">
+
+                            <a href="blog.html" class="list-group-item list-group-item-action iconf">Blogs</a>
+                            <a href="guide.html" class="list-group-item list-group-item-action iconf">Tile-Guide</a>
+                            <a href="https://www.youtube.com/@mastertilesandceramicoffic9778/videos" class="list-group-item iconf list-group-item-action">Educational Videos</a>
+                            <a href="calculater.html" class="list-group-item list-group-item-action iconf">Tile-Calculator</a>
+                           
+                          
+                          </div>
+                        </div>
+                        </div>
+                        </div>
+
+                <li class="nav-item">
+                  <a href="contactus.html" class="nav-link iconf"> Contact-Us</a>
+                </li>
+              </ul>
+
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <a href="tiles.html"><button class="btn btn-danger" type="submit">Search</button></a>
+              </form>
+            </div>
+          </div>
+        </nav>
+  </div>
+<!-- slider -->
+
+
+
+<section class="publicaciones-blog-home">
+    <div class="container">
+      <div class="">
+        <h2>Blog  <b>My Tile Company</b></h2>
+        <div class="row-page row">
+          <div class="col-page col-sm-8 col-md-6">
+            <a href="tiles.html" class="black fondo-publicacion-home">
+              <div class="img-publicacion-principal-home">
+                <img class="" src="images e/th.jpeg">
+              </div>
+              <div class="contenido-publicacion-principal-home">
+                <h3>My Tile Sale Shope</h3>
+                <p> HOW ONE TILE INSTALLER BUILT A BRAND TRUSTED BY PROS
+                  February 1, 2023.After a simple conversation with a friend and fellow trade professional revealed a gap in the market, a new business idea sparked for longtime tile setter Chase Twitchell. With 19+ years of industry experience under his belt, he knew firsthand how drain systems for tiled showers could be improved, making everyday installation jobs easier for people like himself and his peers. Thus, the idea for FloFX was born. Marketed as a brand “by an installer, for installers,” FloFX offers products like advanced bonding flange drains and premium grates that only continue to grow in popularity among professionals in the tile community.
+
+                  Keep reading to learn more about tile installer-turned-FloFX founder, Chase Twitchell, and his fascinating story!<span>...</span></p>
+              </div>
+              <div class="mascara-enlace-blog-home">
+                <span>My Tile </span>
+              </div>
+            </a>
+          </div>
+          <div class="col-page col-sm-4 col-md-3">
+            <a href="about.html"  class="fondo-publicacion-home">
+              <div class="img-publicacion-home">
+                <img class="img-responsive" src="images e/0dw1.jpg">
+              </div>
+              <div class="contenido-publicacion-home">
+                <h3>CEO Mohsin Raza Gondal </h3>
+                <p>The concept started in my garage with a grinder and a piece of sheet metal. I didn’t have access to a welder, so hot glue held the poorly cut pieces of metal together just long enough for me to realize that it was a horrible idea. It solved almost no problems and carried over all the issues installers face when installing stainless linear drains – most notably, bent flanges in shipping and having to use a no-hub/rubber boot for the waste pipe connection. I quickly realized that plastic injection molding was the way to go. It brings repeatability, durability and enhanced geometry not available with stamped sheet metal. However – I had zero experience with 3D design or plastic prototyping at this time.
+
+                  So, after spending the next weekend banging my head on the keyboard trying to learn the basics of a 3D design program and eventually finding a deal on Facebook Marketplace for a 3D printer, I loaded my first design and waited… 24 hours later, I was holding my 1st 3D printed prototype. And it was garbage.  
+                  
+                  I spent the next year making revision after revision. Each version a little better than the last. Learn a new 3D design technique – make a new revision –  print another prototype. 3D printing really was the game changer. Being able to hold and feel your prototype to see how the parts interact with each other was key to making a good product..<span>...</span></p>
+              </div>
+              <div class="mascara-enlace-blog-home">
+                <span>My Tile </span>
+              </div>
+            </a>
+          </div>
+          <div class="col-page col-sm-4 col-md-3">
+            <a href="tiles.html" class="fondo-publicacion-home">
+              <div class="img-publicacion-home">
+                <img class="img-responsive" src="images e/cf.jpg">
+              </div>
+              <div class="contenido-publicacion-home">
+                <h3>My Tile Company Out Late</h3>
+                <p>This one acre retreat awaits a new family across from Pleasant Valley Golf Course. Inside you'll find a toasty warm great room heated by a new energy efficient wood burning stove. Both bathrooms are newly rennovated, the master bath having heated tile flooring, spacious new shower, and reconfigured walk-in closet. Master bedroom has upgraded high-end LVP flooring. Attention to detail expands to the Laundry/drop zone entry from the garage. A new gravel access road connects the cul-de-sac street to the 30x30 shop with power and a pole barn structure with solar roof which assists with power costs. This property has lots of summertime green space surrounded by the quietest of country living. Got ATV's? You can ride them here..<span>...</span></p>
+              </div>
+              <div class="mascara-enlace-blog-home">
+                <span>My Tile </span>
+              </div>
+            </a>
+          </div>
+          <div class="col-page col-sm-4 col-md-3">
+            <a href="about.html" class="fondo-publicacion-home">
+              <div class="img-publicacion-home">
+                <img class="img-responsive" src="images e/anti5.jpg">
+              </div>
+              <div class="contenido-publicacion-home">
+                <h3>Anti-Static tile</h3>
+                <p>Welcome to the Morning Sun Subdivision. 4 bed room 2.5 bath rooms open floor plan from kitchen into the living room. Split Bed room. Living room has a corner natural gas fireplace and open living room with large windows for lots of natural light. Bonus room adds a second living space for extra family room, game room or theater room. 3 car garage. Enjoy your large back yard with covered patio. Morning Sun Subdivision is close to local schools, shopping, restaurants, and much more.<span>...</span></p>
+              </div>
+              <div class="mascara-enlace-blog-home">
+                <span>My Tile </span>
+              </div>
+            </a>
+          </div>
+          <div class="hidden-sm col-page col-sm-4 col-md-3">
+            <a href="index.html" class="fondo-publicacion-home">
+              <div class="img-publicacion-home">
+                <img class="img-responsive" src="images e/cf5.jpg">
+              </div>
+              <div class="contenido-publicacion-home">
+                <h3></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat porta ex, sed ullamcorper ipsum lacinia nec.<span>...</span></p>
+              </div>
+              <div class="mascara-enlace-blog-home">
+                <span>My Tile </span>
+              </div>
+            </a>
+          </div>
+          <div class="hidden-sm col-page col-sm-4 col-md-3">
+            <a href="" class="fondo-publicacion-home">
+              <div class="img-publicacion-home">
+                <img class="img-responsive" src="images e/csw1.jpg">
+              </div>
+              <div class="contenido-publicacion-home">
+                <h3>Neque porro quisquam est qui dolorem ipsum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat porta ex, sed ullamcorper ipsum lacinia nec.<span>...</span></p>
+              </div>
+              <div class="mascara-enlace-blog-home">
+                <span>My Tile </span>
+              </div>
+            </a>
+          </div>
+          <div class="col-page col-sm-4 col-md-3">
+            <a href="about.html" class="todas-las-publicaciones-home">
+                <span>My Tile Company specialy Thanks .Best of Location, Style, and Quality! This newly constructed 4-bedroom, 3-bath floor plan with an oversized 4-car tandem garage is sure to impress! Every inch of this 2560-square-foot home has been meticulously planned using the highest-quality materials, craftsmanship, and interior design elements. You'll instantly feel welcomed with the expansive entryway granting privacy while exemplifying the unique layout.</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <div class="container-fluid mt-5 p-5 c" >
+    <div class="container">
+      <div class="row">
+  <div class="col-md-4  mt-4   border-end border-secondary  ">
+  
+  
+    
+    <br>
+    <!-- <div class="row"> -->
+    <img src="images e/large.png" height="100" width="100">
+  
+  <br>
+  <p class="text-light  ">It is a story o three decades<br>more than a quarter of a century.<br>It is a tale of a dream realized<br>against all odds.</p>
+  <br>
+  <p class="text-light tet "><a href="https://www.instagram.com/mastertiles_official/?hl=en"><i class="bi bi-telephone  h4 text-light pe-3"></i></a>0800-12345</p>
+  
+  
+  <br>
+  <p class="text-light tet"><a href="https://www.facebook.com"><i class="bi bi-facebook   h4 text-light pe-3"></i></a>facebookMytiles.com</p>
+  
+  <br>
+  <p  class=" text-light tet "><a href="https://www.instagram.com/mastertiles_official/?hl=en"><i class="bi bi-house   h4 text-light pe-3"></i></a>L-262 Sector 50/C L.E.R.P West Karachi</p>
+  
+  
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="col-md-4   mt-5  border-end border-secondary text-center justify-content-center ">
+  
+  
+    <h1 class="text-light  ">Mytile</h1>
+  
+    
+    <h2 style="color: red;">_______</h2>
+    <br>
+  
+  <p class="text-secondary tet"> <a href="index.html">> Home</a></p>
+  <p class="text-secondary tet"> <a href="about.html">> About-US </a></p>
+  <p class="text-secondary tet"> <a href="tiles.html">> Tile info</a></p>
+  <p class="text-secondary tet"><a href="tiles.html">> Products</a></p>
+  <p class="text-secondary tet"> <a href="contact.html">> Contact-Us</a></p>
+  
+  
+  </div>
+  
+  
+  
+  <div class="col-md-4  mt-4  ">
+  
+  
+    <h6 class="text-light ">INEORMATION</h6>
+    <h2 style="color: red;">_______</h2>
+    <br><br>
+  <p class="text-secondary tet"><a href="https://mastertiles.com/faq/">>F.A.Q.'s</a></p>
+  <br>
+  <p class="text-secondary tet"><a href="about.html">>Delivery information</a></p>
+  <br>
+  <p class="text-secondary tet "> <a href="https://www.homeworkscarpetonebethanybeach.com/privacy-policy">>Privacy Policy</a></p>
+  <br>
+  <p  class=" text-secondary tet"> <a href="https://www.homeworkscarpetonebethanybeach.com/terms-of-service">>Terms & Conditions</a></p>
+  </div>
+  
+  
+      </div>
+    </div>
+  </div>
+   <!-- footer end -->
+  <div></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  </div>
+
+
+
+
+
+  <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js">
+  
+  </script>
+  
+  
+  
+  <script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript" src="js/smoothslides-2.2.1.min.js"></script>
+      <script type="text/javascript">
+    </script>
+      
+  
+  
+  </body>
+  </html>

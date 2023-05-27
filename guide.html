@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+<script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+<link rel="icon" href="images e/large.png">
+<title>My Tile</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@300;800&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+
+<style>
+.dropdown-hover:hover>.dropdown-menu {
+display: inline-block;
+}
+
+.dropdown-hover>.dropdown-toggle:active {
+/*Without this, clicking will make it sticky*/
+pointer-events: none;
+}
+</style>
+
+
+
+</head>
+<body>
+<!-----main container--->
+<div class="container-fluid">
+
+<!-- header container -->
+
+
+
+
+
+<div class="top-navbar">
+    <div class="top-icon iconf">
+       <a href="https://twitter.com"> <i class="fa-brands fa-twitter iconf"></i></a>
+       <a href="https://www.facebook.com/mastertilesLTD/"> <i class="fa-brands fa-facebook iconf"></i></a>
+       <a href="https://www.instagram.com/mastertiles_official/?hl=en"> <i class="fa-brands fa-instagram iconf"></i></a>
+       <a href="https://www.youtube.com/@mastertilesandceramicoffic9778/videos"><i class="bi bi-youtube iconf"></i></a>
+    </div>
+    <div class="other-links iconf">
+        <button id="btn-login"><a href="https://www.instagram.com/mastertiles_official/?hl=en">login</a></button>
+        <button id="btn-signup"><a href="https://www.facebook.com/mastertilesLTD/">Sign up</a></button>
+
+        <a href="contact.html"> <i class="fa-solid fa-user iconf"></i></a>
+        <a href="tiles.html"><i class="fa-solid fa-cart-shopping iconf"></i></a>
+    </div>
+</div>
+<!--navbar-->
+<div class="home-section">
+    <!--navbar Start-->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://www.facebook.com/mastertilesLTD/"><img src="images e/large.png" alt="" width="100"> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 iconf">
+              <li class="nav-item">
+                <a class="nav-link active iconf" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link iconf" href="about.html">About-US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link iconf" href="tiles.html">Tiles</a>
+              </li>
+
+              <li class="nav-item dropdown dropdown-hover position-static">
+                <a class="nav-link dropdown-toggle" href="tiles.html" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Products
+                </a>
+                <!-- Dropdown menu -->
+                <div class="dropdown-menu w-100 mt-0 mega" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;
+                                  border-top-right-radius: 0;
+                                ">
+      
+                  <div class="container  ">
+                    <div class="row my-4">
+                      <div class="col-md-6 col-lg-3 mb-3 mb-lg-0 iconf mega">
+                        <div class="list-group list-group-flush ">
+                            <ul><li>
+                            <h5 class="text-light">Wall Tiles</h5>
+                        </li></ul>
+                        
+                          <a href="bathroomwall.html" class="list-group-item list-group-item-action iconf">Bathroom-wall-tiles</a>
+                          <a href="kitchenwall.html" class="list-group-item list-group-item-action iconf">Kitchen-wall-tiles</a>
+                          <a href="outdoorwall.html" class="list-group-item list-group-item-action iconf">Outdoor-tiles</a>
+                          <a href="livingroomwall.html" class="list-group-item list-group-item-action iconf">Living-room</a>
+                          <a href="commericalwall.html" class="list-group-item list-group-item-action iconf">Commercial-spaces-tiles</a>
+                        
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-3 mb-3 mb-lg-0 iconf mega">
+                        <div class="list-group list-group-flush ">
+                            <ul><li>
+                                <h5 class="text-light">Floor Tiles</h5>
+                            </li></ul>
+                            
+                          <a href="bathroom2.html" class="list-group-item list-group-item-action iconf">bathroom-Floor-tiles</a>
+                          <a href="kitchen2.html" class="list-group-item list-group-item-action iconf">Kitchen-floor-tiles</a>
+                          <a href="outdoor2.html" class="list-group-item list-group-item-action iconf">Outdoor-floor-tiles</a>
+                          <a href="livingroom2.html" class="list-group-item list-group-item-action iconf">living-Room</a>
+                          <a href="bedroom.html" class="list-group-item list-group-item-action iconf">bedroom</a>
+                          <a href="comerical.html" class="list-group-item list-group-item-action iconf">Commercial-spaces-tiles</a>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-3 mb-3 mb-md-0 iconf mega">
+                        <div class="list-group list-group-flush">
+                            <ul><li>
+                                <h5 class="text-light">Special Tiles</h5>
+                            </li></ul>  
+                          <a href="germ.html" class="list-group-item list-group-item-action iconf">Germ</a>
+                          <a href="tac.html" class="list-group-item list-group-item-action iconf">TAC</a>
+                          <a href="anti.html" class="list-group-item list-group-item-action iconf">Anti-Static</a>
+                          <a href="cool.html" class="list-group-item list-group-item-action iconf">Cool-Roof</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            
+              
+              <li class="nav-item dropdown dropdown-hover position-static">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Expert-corner
+                </a>
+                <!-- Dropdown menu -->
+                <div class="dropdown-menu w-25 mt-0" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;
+                                  border-top-right-radius: 0;
+                                ">
+      
+                  <div class="container">
+                    <div class="row my-4">
+                      <div class="col-md-12 col-lg-12 mb-3 mb-lg-0 iconf ">
+                        <div class="list-group list-group-flush">
+
+                          <a href="blog.html" class="list-group-item list-group-item-action iconf">Blogs</a>
+                          <a href="guide.html" class="list-group-item list-group-item-action iconf">Tile-Guide</a>
+                          <a href="https://www.youtube.com/@mastertilesandceramicoffic9778/videos" class="list-group-item iconf list-group-item-action">Educational Videos</a>
+                          <a href="calculater.html" class="list-group-item list-group-item-action iconf">Tile-Calculator</a>
+                         
+                        
+                        </div>
+                      </div>
+                      </div>
+                      </div>
+
+              <li class="nav-item">
+                <a href="contactus.html" class="nav-link iconf"> Contact-Us</a>
+              </li>
+            </ul>
+
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <a href="tiles.html"><button class="btn btn-danger" type="submit">Search</button></a>
+            </form>
+          </div>
+        </div>
+      </nav>
+</div>
+
+
+<div class="container-fluid">
+<h1  class="txt" style="text-align: center;">Tile Guide</h1>
+<h3> 
+
+    Whether you’re just starting to think about purchasing new flooring for your home, ready to choose your flooring and get the installation started, or simply need help maintaining your floor, you’re in the right place. Our flooring guide will walk you through everything you need to know to make a confident decision for your home.
+    
+     
+    
+     
+    
+    This guide on how to plan, choose and maintain your flooring is our way of sharing our experience and expertise with you. You’ll find information on everything from figuring out your budget to shopping and installation. But, remember, you don’t need to figure this out on your own. Your local Carpet One Floor & Home store is just a phone call (or visit) away.
+    
+     
+    
+     
+    
+    How to Measure Flooring
+     
+    
+    Taking measurements is the first step in the planning process. Here's what you need to know to get the most accurate flooring measurements:
+    
+     
+    
+    How do I measure flooring?
+    How do I calculate square footage of my room?
+    Why should I have a professional measure my room?
+     
+    Budget
+     
+    
+    When considering a budget for your flooring project, it's important to first determine the best type of flooring for your lifestyle.
+    
+     
+    
+    What is the cost difference between the different types of flooring?
+    How much of my overall room remodel should be spent on flooring?
+    
+    How do I estimate my total cost for flooring?
+    
+    What costs are associated with a flooring project?
+    
+    Where can I get the best prices on flooring?
+    
+     
+    Shopping For Flooring
+     
+    
+    It's hard to know everything about flooring, but fortunately, you don't have to. We've compiled some flooring basics you should know before beginning the shopping process.
+    
+     
+    
+    How do I get started?
+    What common mistakes can I avoid during the shopping process?
+    What questions should I ask my sales associate?
+    What information should I provide my sales associate?
+    Capture Bold Modern Flooring Trends
+    Great Options for Laundry Room Flooring
+    How to Shop for Basement Flooring
+    Kitchen Floor Ideas for Your Home
+    Stylish Living Room Floors for Your Home
+    The Best Eco-Friendly Flooring Options
+    The Best Waterproof Flooring Options
+    How To Start Your Home Flooring Project Online
+    What Is Resilient Flooring?
+    What Are The Best Floors For Pets?
+     
+    Remodeling
+     
+    
+    Use this guide for helpful hints when choosing the right flooring for your remodeling project.
+    
+     
+    
+    Planning Your Home Renovation from the Floor Up
+    The Best Flooring for Kitchens
+    Ideas for a Beautiful Staircase Makeover
+    Flooring Ideas for your Whole House
+    Bathroom Flooring Ideas to get the Look You Will Love
+     
+    Carpet Flooring
+     
+    
+    A great choice for many rooms within a home, with its warm, quiet, and comforting qualities.
+    
+     
+    
+    Why should I choose carpet?
+    What warranties are available for carpet?
+    How do I know when it's time for a carpet replacement?
+    Carpet Vs. Hardwood Flooring: A Complete Buyers Guide
+    What are the different types of carpet?
+    What is the best carpet for my room?
+    What is carpet padding?
+     
+    Hardwood Flooring
+     
+    
+    Beauty, strength, and unbeatable character makes a beautiful backdrop in any home.
+    
+     
+    
+    Why should I choose hardwood flooring?
+    What warranties are available for hardwood?
+    What are the hardwood flooring species? 
+    What are the different types of hardwood?
+    What is the best hardwood for my room?
+     
+    Vinyl Flooring
+     
+    
+    Offering style, comfort, and durability, along with enduring values. 
+    
+     
+    
+    Why should I choose vinyl flooring?
+    What warranties are available for vinyl flooring?
+    Can vinyl plank look as real as hardwood or tile?
+    What are the different types of vinyl flooring?
+    What is the best vinyl for my room?
+     
+    Floor Tile
+     
+    
+    A timeless choice with endless possibilities, tile can complement any design style.
+    
+     
+    
+    Why should I choose tile?
+    What are the different types of tile?
+    What warranties are available for tile?
+     
+    Laminate Flooring
+     
+    
+    Providing a wide array of styles, colors, and textures that are both aesthetically pleasing and budget-friendly.
+    
+     
+    
+    Why should I choose laminate?
+    What are the different types of laminate?
+    What warranties are available for laminate?
+    Laminate vs. Vinyl Flooring: A Complete Buyer’s Guide
+    Laminate vs. Hardwood Flooring: A Complete Buyer’s Guide
+     
+    Flooring Installation
+     
+    
+    Flooring is a large project and can be expensive, so you want to make sure your installation is done right.
+    
+     
+    
+    Why is quality installation important?
+    What questions should I ask about installation?
+    Should I install or should a professional?
+    What costs are associated with professional installation?
+    What are hidden installation costs?
+    How do I prepare for installation?
+    What is the significance of a sub-floor?
+    How can I tell if my installation was done well?
+     
+    Warranties 
+     
+    
+    At Carpet One Floor & Home, we take the guesswork out of flooring your home with an easy-to-understand warranty system offering incredible levels of protection. Ranging from Bronze to Titanium, you’re sure to find the perfect flooring warranty to fit your lifestyle. And if you’re looking for absolute assurance that you’ve made the best selection, we offer The Beautiful Guarantee®: a one-of-a-kind guarantee that ensures you’ll love your floor, or we’ll replace it for free.
+    
+     
+    
+    Our Carpet Warranties
+    Our Hardwood Warranties
+    Our Vinyl Warranties
+    Our Tile Warranties
+    Our Laminate Warranties
+    What's the best warranty?
+    What should I know about flooring warranties?
+    How might my warranty be voided?
+    Will I actually use or need my warranty?
+    What should I know about carpet warranties?
+    What should I know about hardwood warranties?
+    What should I know about vinyl warranties?
+    What should I know about tile warranties?
+    What should I know about laminate warranties?
+     
+    Floor Care & Maintenance
+     
+    
+    When you follow our flooring maintenance and care guides, it's easy to maintain the beauty of your new floor. Proper care and cleaning will enhance its life and performance, giving you years of enjoyment.
+    
+     
+    
+    How do I care for carpet?
+    How do I care for hardwood?
+    How do I care for vinyl?
+    How do I care for tile?
+    How do I care for laminate?
+    Things To Consider Before Using Homemade Floor Cleaners
+     </h3>
+
+
+</div>
+
+
+
+
+<div class="container-fluid mt-5 p-5 c" >
+    <div class="container">
+      <div class="row">
+  <div class="col-md-4  mt-4   border-end border-secondary  ">
+  
+  
+    
+    <br>
+    <!-- <div class="row"> -->
+    <img src="images e/large.png" height="100" width="100">
+  
+  <br>
+  <p class="text-light  ">It is a story o three decades<br>more than a quarter of a century.<br>It is a tale of a dream realized<br>against all odds.</p>
+  <br>
+  <p class="text-light tet "><a href="https://www.instagram.com/mastertiles_official/?hl=en"><i class="bi bi-telephone  h4 text-light pe-3"></i></a>0800-12345</p>
+  
+  
+  <br>
+  <p class="text-light tet"><a href="https://www.facebook.com"><i class="bi bi-facebook   h4 text-light pe-3"></i></a>facebookMytiles.com</p>
+  
+  <br>
+  <p  class=" text-light tet "><a href="https://www.instagram.com/mastertiles_official/?hl=en"><i class="bi bi-house   h4 text-light pe-3"></i></a>L-262 Sector 50/C L.E.R.P West Karachi</p>
+  
+  
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="col-md-4   mt-5  border-end border-secondary text-center justify-content-center ">
+  
+  
+    <h1 class="text-light  ">Mytile</h1>
+  
+    
+    <h2 style="color: red;">_______</h2>
+    <br>
+  
+  <p class="text-secondary tet"> <a href="index.html">> Home</a></p>
+  <p class="text-secondary tet"> <a href="about.html">> About-US </a></p>
+  <p class="text-secondary tet"> <a href="tiles.html">> Tile info</a></p>
+  <p class="text-secondary tet"><a href="tiles.html">> Products</a></p>
+  <p class="text-secondary tet"> <a href="contact.html">> Contact-Us</a></p>
+  
+  
+  </div>
+  
+  
+  
+  <div class="col-md-4  mt-4  ">
+  
+  
+    <h6 class="text-light ">INEORMATION</h6>
+    <h2 style="color: red;">_______</h2>
+    <br><br>
+  <p class="text-secondary tet"><a href="https://mastertiles.com/faq/">>F.A.Q.'s</a></p>
+  <br>
+  <p class="text-secondary tet"><a href="about.html">>Delivery information</a></p>
+  <br>
+  <p class="text-secondary tet "> <a href="https://www.homeworkscarpetonebethanybeach.com/privacy-policy">>Privacy Policy</a></p>
+  <br>
+  <p  class=" text-secondary tet"> <a href="https://www.homeworkscarpetonebethanybeach.com/terms-of-service">>Terms & Conditions</a></p>
+  </div>
+  
+  
+      </div>
+    </div>
+  </div>
+   <!-- footer end -->
+  <div></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  </div>
+  <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js">
+  
+  </script>
+  
+  
+  
+  <script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript" src="js/smoothslides-2.2.1.min.js"></script>
+      <script type="text/javascript">
+    </script>
+      
+  
+  
+  </body>
+  </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
